@@ -17,6 +17,7 @@
 	<!-- Css -->
 	<link rel="stylesheet" href="css/core.min.css" />
 	<link rel="stylesheet" href="css/ameya.css" />
+	<link rel="stylesheet" href="css/animation.css" />
 
 	<!--[if lt IE 9]>
     	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -255,6 +256,24 @@
 										<img src="images/logos/signature-grid-4.svg" alt="" style="transition-duration: 400ms; transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);">
 									</div>
 									<p class="opacity-05 weight-bold">Michel Jare - Culinary Chef - Sartre</p> -->
+								</div>
+								<div class="column width-12">
+									<div class="page">
+										<div id="home-news">
+										  <div class="home_header">
+											<strong>Justify Cost &</strong>
+											<span>Value</span>
+										  </div>
+										  <div class="home_header">
+											<strong>professionalism &</strong>
+											<span>consistency</span>
+										  </div>
+										  <div class="home_header">
+											<span>Innovating &</span>
+											<strong>creative</strong>
+										  </div>
+										</div>
+									  </div>
 								</div>
 							</div>
 						</div>
@@ -803,28 +822,7 @@
 
 	<!-- Js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script>
-		(function($) {
-		var duration = 3000;  // change this to change rotation time in milliseconds
-		var current = 1;
-		var tricker = $(".tricker");
-		var height = tricker.height();
-		var number = tricker.children().length;
-		var first = tricker.children().first();
-
-		setInterval(function() {
-			var interv = current * -1 * height;
-			first.css("margin-top", interv + "px");
-			if (current == number) {
-			first.css("margin-top", "0px");
-			current = 1;
-			} else {
-			current++;
-			}
-		}, duration);
-		})(jQuery);
-	</script>
-	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
+	<script src="js/script.js"></script>
 	<script src="js/timber.master.min.js"></script>
 </body>
 </html>

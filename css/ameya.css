@@ -1,8 +1,4 @@
 /*------------------------------------------------------------------
-Sartre Skin Restaurant
-Version: 1.0.4;
-Author: ThemeMountain
-Copyright: ThemeMountain
 
 [Table of contents]
 
@@ -762,11 +758,11 @@ body,
 	color: #999;
 }
 .header-background .navigation > ul > li.current > a{
-	color: #000;
+	color: #8b1955;
 	border-bottom: none;
 }
 .header-background .navigation > ul > li.current > a:hover{
-	color: #000;
+	color: #8b1955;
 }
 .header-background .navigation > ul > li > a:hover{
 	color: #000;
